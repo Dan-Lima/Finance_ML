@@ -23,10 +23,10 @@ if __name__ == '__main__':
 	MainFrame=Frame(MainWindow, bg="gray10")
 	MainFrame.grid(row=0, column=0)
 	
-	Button_OptionPricer = Button(MainFrame,text="Options Pricer",command=op.OptionPricer, bg="gray25", fg="gray70")
-	Button_OptionPricer.grid(row=0, column=0, padx=5, pady=5)
+	Button_OptionPricer = Button(MainFrame,text="Options Pricer",command=op.OptionPricer, bg="gray25", fg="gray99", anchor=W)
+	Button_OptionPricer.grid(row=0, column=0, padx=5, pady=5, sticky=W)
 	
-	Button_MachineLearning = Button(MainFrame,text="Machine Learning Dashboard",command=ml.MachineLearning, bg="gray25", fg="gray70")
-	Button_MachineLearning.grid(row=1, column=0, padx=5, pady=5)
+	Button_MachineLearning = Button(MainFrame,text="Machine Learning",command=ml.MachineLearning, bg="gray25", fg="gray99", anchor=W)
+	Button_MachineLearning.grid(row=1, column=0, padx=5, pady=5, sticky=W)
 
 	MainWindow.mainloop()
