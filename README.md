@@ -18,3 +18,7 @@ The goal here is not optimisation, but to use common python libraries (pandas, n
 
 Example:
 <br>pip install pandas
+
+# How to run
+You should run the home.py file:
+<br>python home.py
