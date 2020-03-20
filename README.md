@@ -3,7 +3,7 @@ The purpose of this project is to create an application with 2 modules:
 1) Basic option structure pricer: will use the Black & Scholes formula to price 5-leg structures
 2) Machine learning: module that will apply machine learning algorithms for regression and classification problems with user-provided data
 
-The goal here is not optimisation, but to use common python libraries (pandas, numpy, tkinter, etc). With that, the algorithms will be manually implemented, instead of using TensorFlow/Keras and other well-known frameworks.
+The goal here is not optimisation, but to use common python libraries (pandas, numpy, tkinter, etc). With that, the algorithms will be manually implemented, instead of using TensorFlow/Keras and other frameworks.
 
 **Dependencies:**
 - pandas
